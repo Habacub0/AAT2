@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(249,241,238);
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+footer {
+    background-color: #250f01;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+#titulo {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+.parrafoInfo {
+    font-size: 0.75rem;
+}
+.navbar {
+    display: flex;
+    background-color:#250f01;
+    justify-content: center;
+    
+
+}
+.navbar .nav-link {
+    color: #fae6a9;
+}
+.navbar a {
+    text-decoration: none;
+    color: #D4AF37;
+}
+.hero1 {
+    background-color: rgba(26,10,0);
+}
+.hero2 {
+    background-color: rgb(37,16,5);
+}
+h5.text-uppercase {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color:rgb(232,191,106);
+}
+h1{
+    font-family: 'Georgia', serif;
+    font-weight: bold;}
+.info {
+    background-color: #f1ba7a;
+}
+#formReserva {
+    background-color: #250f01;
+    color: #ffffff;
+    padding: 40px;
+}
+#formReserva h1 {
+    font-style: italic;
+}
+input.form-control{
+    background-color:rgb(116, 63, 31);
+    
+}

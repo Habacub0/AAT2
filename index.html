@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mechita</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid"> <a class="navbar-brand" href="#inicio">La Mechita</a> <button class="navbar-toggler"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="#inicio">Inicio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#menu">Menu</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#historia">Nosotros</a> </li>
+                        <li> <a class="nav-link" href="#menu">Galería</a> </li>
+                        <li> <a class="nav-link" href="#formReserva">Contacto</a> </li>
+                        <li><a href="#formReserva" class="btn btn-warning">Reservar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+     
+    <div class="hero1 container-fluid d-flex flex-column text-light text-center p-5 mt-2" id="inicio">
+        <p class="text-uppercase small mb-3" style="color:#d4af37;">Tradición · Sabor · Familia</p>
+        <h1 class="display-3 mb-4" id="titulo">Bienvenidos a La Mechita</h1>
+        <p class="lead mb-4">Cocina auténtica guatemalteca con el sabor de siempre</p>
+        <div class="d-flex gap-3 justify-content-center">
+            <a class="btn btn-warning" href="#menu">Ver Menu</a>
+            <a href="#formReserva" class="btn btn-warning">Hacer Reservación</a>
+        </div>
+    </div>
+    <div class="hero2 container-fluid d-flex text-light justify-content-center align-items-center flex-column p-5 gap-4">
+        <img src="./media/platilloDestacado.jpg" alt="Platillo Destacado" class="img-fluid w-50">
+    </div>
+    <div class="container-fluid mt-2 row align-items-center pt-3" style="background-color:#e4ae4a;">
+    <div class="row text-center">  
+
+        <div class="col">
+            <strong><p class="parrafoInfo text-uppercase mb-2">Horario</p></strong>
+            <p class="parrafoInfo">Lun - Dom · 8:00 am - 10:00 pm</p>
+        </div>
+
+        <div class="col">
+            <strong><p class="parrafoInfo text-uppercase mb-2">Ubicación</p></strong>
+            <p class="parrafoInfo">Zona 10, Guatemala</p>
+        </div>
+
+        <div class="col">
+            <strong><p class="parrafoInfo text-uppercase mb-2">Teléfono</p></strong>
+            <p class="parrafoInfo">+502 2222-3333</p>
+        </div>
+
+        <div class="col">
+            <strong><p class="parrafoInfo text-uppercase mb-2">Experiencia</p></strong>
+            <p class="parrafoInfo">+25 años sirviendo</p>
+        </div>
+
+    </div>
+
+</div>
+    <h6 class="text-uppercase mt-4 text-center" id="menu">E s p e c i a l i d a d e s</h6>
+    <h1 class="display-4 text-center mb-1">Nuestros platillos favoritos</h1>
+    <div class="bg-warning mx-auto my-3" style="width: 100px; height: 10px;"></div>
+    <strong><p class="parrafoInfo text-center">Preparados con ingredientes frescos y recetas de generación en generación</p></strong>
+    <div class="container d-flex justify-content-center gap-4 mt-4">
+    <div class="card d-flex">
+        <img src="./media/pinchos.jpg" alt="Pinchos de Pollo" height="142px" class="card-img-top">
+        <div class="card-body">
+            <span class="badge bg-warning text-dark">POPULAR</span>
+            <h5 class="card-title mt-4 fst-italic">Pinchos de Pollo</h5>
+            <p class="card-text">Una tradicional preparación de pollo a la parrilla, servida con una salsa especial.</p>  
+            <span class="text-warning fw-bold">Q 45.00</span>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./media/churrasco.png" alt="Pipian Rojo" height="142px" class="card-img-top">
+        <div class="card-body">
+            <span class="badge border border-success text-success">RECOMENDADO</span>
+            <h5 class="card-title mt-4 fst-italic">Churrasquito</h5>
+            <p class="card-text">Tradicional corte de carne de res a la parrilla, servido con una salsa especial.</p>  
+            <span class="text-warning fw-bold">Q 65.00</span>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./media/chilesRellenos.jpg" alt="Chiles Rellenos" height="142px" class="card-img-top">
+        <div class="card-body ">
+            <h5 class="card-title mt-5 fst-italic">Chiles Rellenos</h5>
+            <p class="card-text">Chiles rellenos con queso y especias, horneados hasta que estén dorados.</p>
+            <span class="text-warning fw-bold">Q 40.00</span>
+        </div>
+    </div>
+</div>
+<h6 class="text-uppercase mt-4 text-center" id="historia">Nuestra Historia</h6>
+<h1 class="display-4 text-center mb-1">El sabor de Guatemala desde 1998</h1>
+<div class="row">
+    <div class="col-md-6">
+        <img src="./media/frontView.png" alt="Fachada del Restaurante" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+        <p>La Mechita nació del amor por la cocina tradicional guatemalteca. 
+        Fundada por la familia Morales, cada platillo lleva el cariño y los 
+        secretos de generaciones que han preservado los sabores auténticos 
+        de nuestra tierra.
+        </p>
+        <span class="collapse" id="historiaCompleta">
+            Desde nuestros inicios en 1998, hemos sido un punto de encuentro para quienes buscan disfrutar de la gastronomía guatemalteca en su máxima expresión. Nuestro compromiso con la calidad y el sabor nos ha llevado a ser reconocidos como uno de los mejores restaurantes de la ciudad, ofreciendo
+        </span>
+        <button class="btn btn-warning mt-3" data-bs-toggle="collapse" data-bs-target="#historiaCompleta">Conoce Más</button>
+    </div>
+    <div class="bg-success mx-auto my-3" style="width: 100%; height: 01px;"></div>
+    <h6 class="text-uppercase text-center text-warning">Testimonios</h3>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="card mb-3">
+            <div class="card-body border-start border-4 border-warning">
+                <p>⭐⭐⭐⭐⭐ </p>
+                <p class="card-text">"La Mechita es mi lugar favorito para disfrutar de la auténtica comida guatemalteca. ¡Siempre delicioso!"</p>
+                <h5 class="card-title">María González</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-3">
+            <div class="card-body border-start border-4 border-warning">
+                <p>⭐⭐⭐⭐⭐ </p>
+                <p class="card-text">"La Mechita es mi lugar favorito para disfrutar de la auténtica comida guatemalteca. ¡Siempre delicioso!"</p>
+                <h5 class="card-title">Juan Pérez</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="formReserva">
+    <h6 class="text-uppercase text-center text-warning">Reserva tu mesa</h6>
+    <h1>Asegura tu lugar y vive la experiencia La Mechita</h1>
+  <div class="col-4 mb-2">
+    <input type="text" class="form-control" placeholder="Nombre completo" aria-label="Nombre y Apellido">
+  </div>
+  <div class="col-4">
+    <input type="text" class="form-control" placeholder="Teléfono / WhatsApp" aria-label="Teléfono o WhatsApp">
+  </div>
+    <div class="col-4">
+        <input type="date" class="form-control" placeholder="Fecha" aria-label="Fecha de reservación">
+    </div>
+    <div class="col-4 mb-2">
+        <input type="time" class="form-control" placeholder="Hora" aria-label="Hora de reservación">
+    </div>
+    <div class="col-4">
+        <input type="number" class="form-control" placeholder="No. de personas" aria-label="Número de personas">
+    </div>
+    <div class="col-4">
+        <input type="text" class="form-control" placeholder="Ocasión especial" aria-label="Evento o ocasión especial">
+    </div>
+
+<div class="text-center">
+    <a href="mailto:info@lamechita.gt" class="btn btn-warning">Reservar</a>
+</div>
+</div>
+<footer>
+    <div class="row mt-4 border-top border-5 border-warning pt-4">
+        <div class="col-4 text-align-justify">
+            <h5 class="text-uppercase">La Mechita</h5>
+            <p>Cocina tradicional guatemalteca con el corazón 
+            puesto en cada platillo. Una experiencia culinaria 
+            llena de sabor y tradición.
+            </p>
+        </div>
+        <div class="col-4 text-center">
+            <h5 class="text-uppercase">Contacto</h5>
+            <p>Zona 10, Guatemala City</p>
+                <p>+502 2222-3333</p>
+            <p>info@lamechita.gt</p>
+        </div>
+        <div class="col-4 text-center">
+            <h5 class="text-uppercase">Horario</h5>
+            <p>Lunes – Viernes</p>
+                <p>8:00 am – 10:00 pm</p>
+                <p></p>Sábado y Domingo</p>
+                <p>7:00 am – 11:00 pm</p>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
